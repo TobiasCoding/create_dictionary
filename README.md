@@ -21,7 +21,7 @@ cd create_dictionary
 ```
 python3 create_dictionary_(numbers).py
 ```
-**or**
+  **or**
 ```
 python3 create_dictionary_(letters,nums_and_symbols).py
 ```
