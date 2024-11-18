@@ -1,3 +1,6 @@
+Simple script to create dictionaries for pentesting.
+
+
 # Use
 
 Clone repo
@@ -20,3 +23,5 @@ Check output
 tail -f passwords.pst
 ```
 
+---
+Developed by tobiasrimoli@duck.com
