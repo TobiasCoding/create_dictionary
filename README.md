@@ -15,7 +15,11 @@ cd create_dictionary
 
 Execute the script
 ```
-python3 create_passwords_list.py
+python3 create_dictionary_(numbers).py
+```
+or
+```
+python3 create_dictionary_(letters,nums_and_symbols).py
 ```
 
 Check output
