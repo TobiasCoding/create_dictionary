@@ -34,17 +34,19 @@ if (extension >= tamano_bloque):
 else:
     bloques = [extension,]
 
-print(f'Generating {len(bloques)} of passwords...')
+print(f'Generating {len(bloques)} bloqs of passwords...')
 
+num = 0
 with open("passwords.lst", "w") as archivo:
     for block in bloques:
         data = ""
         for _ in range(block):
-            data += f"{prefijo}{inicio}{post}\n"
+            data += f"{prefijo}{inicio}\n"
             inicio +=1
+            num +=1
         archivo.write(data)
 
-        porcentaje = (inicio / fin) * 100
+        porcentaje = (num / extension) * 100
         print(f"Progress: {porcentaje:.2f}% done", end='\r')
 
 print("Archivo 'passwords.lst' created successfully.")
